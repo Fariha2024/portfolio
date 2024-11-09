@@ -1,0 +1,133 @@
+
+/*Ist div*/
+.footercontainer1 {
+  display: flex; /* Use flexbox layout */
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: black;
+  width: 920px; /* Custom width */
+  height: 60px; /* Custom height */
+  /*background-color: transparent; /* Transparent background */
+ /*background-color: #0c0b0b; /* Dark background color */
+  backdrop-filter: blur(4px); /* Blur effect */
+  left: 0px; /* Positioning */
+  top: 0; /* Positioning */
+  padding: 60px;
+  max-width:custom-sm 480px; /*Custom max-width of 480px for small screens */
+  max-width: custom-md 670px;  /* Custom max-width of 670px for medium screens */
+  max-width:custom-lg 1024px; /* Custom max-width of 1024px for large screens  */  
+/*max-w-sm md:max-w-md lg:max-w-lg*/
+
+
+  
+  
+}
+
+
+.logo1{ 
+  display:flex; 
+  position:absolute;
+width:160px;
+height:60px;
+left:0px;
+top:0px;
+justify-content: center; /* Center horizontally */
+align-items: center; /* Center vertically */
+padding: 20px; /* Add padding to the container */
+border: 2px solid #4D4D4D; /* Outline border */
+border-radius: 4px; /* Rounded corners (optional) */
+padding: 20px; /* Space between border and logo */
+
+}
+.logosize1{
+  left:60.32px;
+  top: 20px;
+  
+}
+
+ 
+.logo2{ 
+  display:flex; 
+  position: absolute;
+width:160px;
+height:60px;
+left:190px;
+top:0px;
+justify-content: center; /* Center horizontally */
+align-items: center; /* Center vertically */
+padding: 20px; /* Add padding to the container */
+border: 2px solid #4D4D4D; /* Outline border */
+border-radius: 4px; /* Rounded corners (optional) */
+padding: 20px; /* Space between border and logo */
+
+}
+.logosize2{
+  left:112px;
+  top: 22px;
+}
+
+ 
+.logo3{ 
+  display:flex; 
+  position: absolute;
+width:160px;
+height:60px;
+left:380px;
+top:0px;
+border: 2px solid #4D4D4D; /* Outline border */
+border-radius: 4px; /* Rounded corners (optional) */
+padding: 20px; /* Space between border and logo */
+
+
+}
+.logosize3{
+  left:72px;
+  top: 28px;
+}
+
+  
+.logo4{ 
+  display:flex; 
+  position: absolute;
+width:160px;
+height:60px;
+left:570px;
+top:0px;
+
+justify-content: center; /* Center horizontally */
+align-items: center; /* Center vertically */
+padding: 20px; /* Add padding to the container */
+border: 2px solid #4D4D4D; /* Outline border */
+border-radius: 4px; /* Rounded corners (optional) */
+padding: 20px; /* Space between border and logo */
+
+}
+.logosize4{
+  left:72px;
+  top: 28px;
+}
+
+  
+.logo5{ 
+  display:flex; 
+  position: absolute;
+width:160px;
+height:60px;
+left:760px;
+top:0px;
+justify-content: center; /* Center horizontally */
+align-items: center; /* Center vertically */
+padding: 20px; /* Add padding to the container */
+border: 2px solid #4D4D4D; /* Outline border */
+border-radius:4px; /* Rounded corners (optional) */
+padding: 20px; /* Space between border and logo */
+
+
+}
+.logosize5{
+  left:34px;
+  top: 25px;
+}
+
+

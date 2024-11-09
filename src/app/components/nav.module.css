@@ -1,0 +1,88 @@
+ 
+
+ 
+ /*Ist div*/
+ .headerContainer1 {
+  display: flex; /* Use flexbox layout */
+  position: fixed;
+  width: 1110px; /* Custom width */
+  height: 70px; /* Custom height */
+  background-color: #1B1B1B; /* Dark background color */
+  backdrop-filter: blur(4px); /* Blur effect */
+  left: 180px; /* Positioning */
+  top: 0; /* Positioning */
+  gap: 15px;
+  max-width:custom-sm 480px; /*Custom max-width of 480px for small screens */
+    max-width: custom-md 670px;  /* Custom max-width of 670px for medium screens */
+    max-width:custom-lg 1024px; /* Custom max-width of 1024px for large screens  */  
+  /*max-w-sm md:max-w-md lg:max-w-lg*/
+  
+}
+
+
+ /*2nd div  */ 
+.navbarContainer2 {
+  position: absolute;
+  display: flex;
+;
+}
+.nav {
+  position: absolute;      /* Equivalent to absolute class */
+  width: 717px;           /* Equivalent to w-[717px] */
+  height: 18px;           /* Equivalent to h-[60px] */
+  display: flex;
+  gap: 70px; /* Adjust the gap as needed */
+  color: #4D4D4D;         /* Corresponds to text-zinc-300 */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+  left: 120px;            /* Inline style for left */
+  top: 24px;              /* Inline style for top */
+}
+.nav:hover {
+  color: #4D4D4D;         /* Corresponds to hover:text-gray-300 */
+}
+
+.navigationMenu {
+  display: flex;                  /* Equivalent to flex */
+  gap: 4rem;                     /* space-x-8 translates to 2rem (32px) */
+  list-style-type: none;         /* Remove default list styling */
+  margin: 0;                     /* Remove default margin */
+  padding: 0;                    /* Remove default padding */
+}
+
+.navigation-menu a {
+  color: #a1a1aa;                    /* Corresponds to text-zinc-300 */
+  text-decoration: none;              /* Remove underline from links */
+  transition: color 0.3s;            /* Smooth transition for hover effect */
+  display: flex;
+}
+.navigation-menu a:hover {
+  color: #d1d5db;                    /* Corresponds to hover:text-gray-300 */
+}
+
+/*3rd div*/
+.socialMediaalinks3 {
+  
+  position:absolute ; 
+  width: 107.54px; /* Custom width */
+  height: 17px; /* Custom height */
+  display: flex; /* Flexbox layout */
+  background-color: #1B1B1B; /* Slate color */
+  left: 992px; /* Positioning */
+  top: 26px; /* Positioning */
+  gap: 25px;
+ 
+
+}
+
+.socialIcon {
+  position:relative;
+ display: flex;
+ justify-items:flex-end;
+ gap:20px;
+  color: #4D4D4D; /* Text color */
+  width: 18px; /* Width for the icon */
+  height: 17px; /* Height for the icon */
+  left: 300px;            /* Inline style for left */
+  top:8px;
+}
+

@@ -1,0 +1,146 @@
+
+/*.heroContainer1 {
+  display: flex; /* Flexbox layout */
+ /* justify-content: space-around; /* Space between elements */
+  /*align-items: center; /* Center vertically */
+  /*position: relative;
+  width: 100%;   /* Full width for responsiveness */
+  /*max-width: 1280px; /* Custom width */
+  /*height: 700px; /* Custom height */
+  /*background-color: #080808; /* Dark background color */
+  /*display: flex; /* Flexbox layout */
+  /*margin: 0 auto; /* Center the container */
+  /*padding: 0px; /* Optional: Add some padding */
+  /*box-sizing: border-box; /* Ensure padding is included in width */
+
+
+
+
+
+
+
+
+
+.herowrapper {
+  
+  width: 100%; /* Full viewport width */
+  height: 100vh; /* Full viewport height (optional, remove if not needed) */
+  display: flex;
+  justify-content: center; /* Center the inner container */
+  align-items: center;
+  background-color: black; /* Match background color for seamless look */
+  flex-direction: column;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  max-width:custom-sm 480px; /*Custom max-width of 480px for small screens */
+  max-width: custom-md 670px;  /* Custom max-width of 670px for medium screens */
+  max-width:custom-lg 1024px; /* Custom max-width of 1024px for large screens  */  
+/*max-w-sm md:max-w-md lg:max-w-lg*/
+
+}
+
+
+
+
+
+
+.herotextcontainer{
+ position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+ justify-content: space-between; /* Space between the image and hero container */
+  align-items: center;
+  width: 538px; /* Custom width */
+  height: 247px; /* Custom height */
+  display: flex; /* Flexbox layout */
+  flex-direction: column; /* Flex column direction */
+  align-items: flex-start; /* Align items to the start */
+  justify-content: space-between; /* Space between items */
+  color:#999999; /* Text color */
+  background-color: #000000; /* Black background */
+  border-radius: 0.375rem; /* Rounded corners */
+  text-align: left; /* Left text alignment */
+  z-index: 10; /* Z-index for stacking */
+  left: 290px; /* Positioning */
+  top: 320px; /* Positioning */
+  font-size: 12px; 
+ 
+/*max-w-sm md:max-w-md lg:max-w-lg*/
+
+}
+/*h2*/
+.nameHeading {
+  font-size: 3.50rem; /* Corresponds to text-4xl */
+  font-weight: bold; /* Font bold */
+  margin-top: 0.5rem; /* Corresponds to mt-2 */
+ 
+}
+/*p*/
+.description {
+  margin-top: 0.5rem; /* Corresponds to mt-2 */
+  margin-right: 12rem; /* Corresponds to mr-12 */
+  margin-bottom: 1.5rem;
+}
+.buttoncontainer {
+  display:flex;
+  width: 307.89px; /* Custom width */
+  height: 65px; /* Custom height */
+  left:0px;
+top:0px;
+  
+  
+  color: #999999; /* Text color */
+  font-weight: 700; /* Font-semibold */
+  font-size:15px;
+  border-radius: 0.20rem; /* Rounded corners, corresponds to rounded-sm */
+  background-color: #3e8503; /* Green background */
+  border: none; /* No border */
+  cursor: pointer; /* Pointer cursor */
+  justify-content: center; /* Center horizontally */
+align-items: center; /* Center vertically */
+padding: 20px; /* Add padding to the container */
+}
+
+.button:hover {
+  background-color: #2f6c00; /* Darker shade on hover */
+}
+
+
+
+
+
+
+
+img 
+.heroImageContainer {
+  
+  position:Absolute;
+  width:416px;
+  height:623px;
+  display: flex;  /*Flexbox layout */
+  align-items: flex-end;  /*Align items to the end*/
+  justify-content: flex-end; /* Justify content to the end*/ 
+  left: -33px; /*Adjusted left positioning */
+  top: -110px;  /*Adjusted top positioning */
+}
+
+/* Image style */
+.heroimagecontainer {
+  
+  position:  absolute; 
+  display: flex;
+  justify-content: flex-end; /* Align image to the right */
+  width: 350px; /* Set the image width */
+  height: 350px; /* Set the image height */
+  border-radius: 50%; /* Make the image circular */
+  object-fit: cover; /* Ensure the image covers the area without stretching */
+  filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.7)); /* Add vignette shadow effect */
+  /*border: 5px solid rgba(255, 255, 255, 0.2); /* Subtle white border for sophistication */
+  left: 550px; /* Left positioning */
+  top: -20px; /* Top positioning */
+   
+ 
+
+}
+
